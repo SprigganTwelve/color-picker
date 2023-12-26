@@ -1,0 +1,43 @@
+* {
+}
+.container {
+  border: 3px solid purple;
+  display: flex;
+  justify-content: center;
+}
+.page {
+  border: 3px solid red;
+}
+.items {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.choose {
+  border: 3px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 34px;
+}
+label {
+  border: 3px solid salmon;
+  display: flex;
+  flex-direction: row;
+}
+#picker {
+  height: 30px;
+}
+#color {
+  color: blue;
+  border: 3px solid blue;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border-radius: 10%;
+}

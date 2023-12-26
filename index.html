@@ -1,0 +1,35 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>colorBrought</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page">
+        <h1>Color picker</h1>
+        <div class="items">
+          <img src="img.jpg" alt="dsl" width="325px" />
+          <button id="picker">pipette</button>
+          <div id="color"></div>
+          <div class="choose">
+            <label
+              >hex:
+              <div id="hex">#ffffff</div>
+              <button id="hexCopy">copy</button></label
+            >
+            <label
+              >rgb:
+              <div id="rgb">rgb(255,255,255)</div>
+              <button id="rgbCopy">copy</button></label
+            >
+            <label for="input-file">IMPORT</label>
+            <input type="file" id="input-file" style="display: none" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>
