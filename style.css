@@ -1,6 +1,6 @@
-h1 {
+body {
+  background: url(fond-ecran-pc-jujutsu-kaisen.jpg);
 }
-
 .container {
   display: flex;
   justify-content: center;
