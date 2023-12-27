@@ -7,13 +7,8 @@ var hexCopy = document.querySelector("#hexCopy");
 var rgbCopy = document.querySelector("#rgbCopy");
 var input = document.querySelector("input");
 var img = document.querySelector("img");
-var h1 = document.querySelector("h1");
-var body = document.querySelector("body");
 
-if ((body.style.color = "white")) {
-} else {
-  h1.style.color = "white";
-}
+var body = document.querySelector("body");
 
 colorPickUp.addEventListener("click", function () {
   var color = new EyeDropper();
@@ -38,4 +33,6 @@ rgbCopy.addEventListener("click", () => {
 
 input.addEventListener("change", () => {
   img.src = URL.createObjectURL(input.files[0]);
+  body.style.background = `url(${URL.createObjectURL(input.files[0])})`;
+  body.style.backgroundSize = "cover";
 });
