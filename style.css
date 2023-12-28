@@ -28,6 +28,7 @@ label {
   padding: 17px;
   color: whitesmoke;
   background: black;
+  gap: 7px;
 }
 
 #import:hover {
@@ -56,4 +57,12 @@ img {
 #rgb {
   background: black;
   opacity: 34%;
+}
+#rgbCopy {
+  background: black;
+  color: white;
+}
+#hexCopy {
+  background: black;
+  color: white;
 }
